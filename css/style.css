@@ -33,8 +33,6 @@ header {
 /* RECIPE SECTION */
 .recipe {
     padding: 40px 30px 0 30px;
-
-    background-color: #ff9614;
 }
 
 h3 {
@@ -46,4 +44,34 @@ h3 {
 h1 {
     font-size: 2rem;
     color: #4e3969;
+}
+
+.main-recipe {}
+
+.video {
+    padding-top: 10px;
+}
+
+.video img {
+    width: 100%;
+}
+
+.resume {
+    background-color: white;
+    box-shadow: 1px 1px 20px gray;
+    padding: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list p {
+    width: calc(100%/3);
+    padding-top: 2rem;
 }
