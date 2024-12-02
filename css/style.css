@@ -99,5 +99,24 @@ h4 {
 }
 
 #banner {
+    display: block;
     width: 100%;
+}
+
+
+/* PRESENTATION SECTION */
+.presentation {
+    padding: 30px 30px 60px 30px;
+}
+
+.presentation h2 {
+    font-weight: 400;
+}
+
+.spacer {
+    width: 15%;
+    height: 2px;
+    background-color: #f6b46b;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
