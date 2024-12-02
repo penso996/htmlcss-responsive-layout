@@ -1,0 +1,29 @@
+/*PAGE RULES and ELEMENTS*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: #f6f5f3;
+}
+
+/* TABLET FIRST */
+/* HEADER */
+
+header {
+    height: 80px;
+    background-color: white;
+    padding-left: 1rem;
+}
+
+#logo {
+    font-family: "Nerko One", sans-serif;
+    color: #ff9614;
+    font-size: 4rem;
+    text-shadow: 1px 1px 3px gray;
+}
