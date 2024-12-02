@@ -35,13 +35,13 @@ header {
 }
 
 h3 {
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: grey;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #4e3969;
 }
 
@@ -64,7 +64,7 @@ h1 {
 }
 
 h4 {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .list {
@@ -73,8 +73,9 @@ h4 {
 }
 
 .list p {
+    font-size: 0.6rem;
     width: calc(100%/3);
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 
 /* social */
@@ -86,7 +87,7 @@ h4 {
 }
 
 .social a {
-    padding: 10px 70px 10px 70px;
+    padding: 5px 40px 5px 40px;
     background-color: white;
     box-shadow: 1px 1px 20px gray;
     border-radius: 30px;
@@ -110,6 +111,7 @@ h4 {
 }
 
 .presentation h2 {
+    font-size: 1.2rem;
     font-weight: 400;
 }
 
@@ -119,6 +121,10 @@ h4 {
     background-color: #f6b46b;
     margin-top: 20px;
     margin-bottom: 30px;
+}
+
+.presentation p {
+    font-size: 0.8rem;
 }
 
 .presentation img {
@@ -139,7 +145,7 @@ h4 {
 /* FOOTER */
 footer {
     background-color: #7c69a4;
-    padding: 30px 30px 0px 30px;
+    padding: 20px 30px 10px 30px;
 }
 
 .info {}
@@ -163,6 +169,12 @@ footer {
 .about-us a {
     text-align: center;
     color: white;
-    font-size: 0.8rem;
-    padding: 20px;
+    font-size: 0.6rem;
+    padding: 10px;
 }
+
+
+/*************************************************
+    DESKTOP VERSION
+ *************************************************/
+@media screen and (min-width: 992px) {}
