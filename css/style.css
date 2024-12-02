@@ -84,10 +84,15 @@ h4 {
 }
 
 .social a {
+    text-decoration: none;
     padding: 5px 40px 5px 40px;
     background-color: white;
     box-shadow: 1px 1px 20px gray;
     border-radius: 30px;
+}
+
+.social span {
+    display: none;
 }
 
 
@@ -196,10 +201,31 @@ footer {
     }
 
     .video {
-        width: 60%;
+        width: 75%;
     }
 
     .resume {
-        width: 40%;
+        width: 25%;
+        padding-right: 10px;
+    }
+
+    .list {
+        display: block;
+    }
+
+    .list p {
+        font-size: 0.8rem;
+        width: 100%;
+    }
+
+    .social a {
+        display: flex;
+        padding: 5px 15px 5px 15px;
+    }
+
+    .social span {
+        display: block;
+        color: black;
+        font-size: 0.8rem;
     }
 }
