@@ -23,6 +23,7 @@ header {
 
 #logo {
     font-family: "Nerko One", sans-serif;
+    font-style: italic;
     color: #ff9614;
     font-size: 4rem;
     text-shadow: 1px 1px 3px gray;
