@@ -46,6 +46,7 @@ h1 {
     color: #4e3969;
 }
 
+/* main recipe */
 .main-recipe {}
 
 .video {
@@ -74,4 +75,27 @@ h4 {
 .list p {
     width: calc(100%/3);
     padding-top: 2rem;
+}
+
+/* social */
+.social {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    background-color: #ff9614;
+
+}
+
+.social a {
+    padding: 10px 50px 10px 50px;
+    background-color: white;
+    box-shadow: 1px 1px 20px gray;
+    border-radius: 30px;
+}
+
+/* AD SECTION */
+#banner {
+    width: 100%;
 }
