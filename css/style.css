@@ -6,6 +6,7 @@
 
 :root {
     font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
 }
 
 body {
@@ -178,4 +179,24 @@ footer {
 /*************************************************
     DESKTOP VERSION
  *************************************************/
-@media screen and (min-width: 992px) {}
+@media screen and (min-width: 992px) {
+
+    .recipe,
+    .banner,
+    .presentation {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    .video {
+        width: 60%;
+    }
+}
