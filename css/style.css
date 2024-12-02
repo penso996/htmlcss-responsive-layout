@@ -45,15 +45,10 @@ h3 {
 h1 {
     font-size: 1.5rem;
     color: #4e3969;
+    padding-bottom: 10px;
 }
 
 /* main recipe */
-.main-recipe {}
-
-.video {
-    padding-top: 10px;
-}
-
 .video img {
     display: block;
     width: 100%;
@@ -196,7 +191,15 @@ footer {
         font-size: 2.2rem;
     }
 
+    .main-recipe {
+        display: flex;
+    }
+
     .video {
         width: 60%;
+    }
+
+    .resume {
+        width: 40%;
     }
 }
