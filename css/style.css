@@ -228,4 +228,25 @@ footer {
         color: black;
         font-size: 0.8rem;
     }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .info {
+        width: 35%;
+    }
+
+    .about-us {
+        width: 35%;
+    }
+
+    .info h6 {
+        text-align: left;
+    }
+
+    .info p {
+        text-align: left;
+    }
 }
