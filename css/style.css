@@ -13,6 +13,13 @@ body {
     background-color: #f6f5f3;
 }
 
+.recipe,
+.banner,
+.presentation {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 
 /* TABLET FIRST */
 /* HEADER */
@@ -33,7 +40,7 @@ header {
 
 /* RECIPE SECTION */
 .recipe {
-    padding: 40px 5% 0 5%;
+    padding-top: 40px;
 }
 
 h3 {
@@ -97,10 +104,6 @@ h4 {
 
 
 /* AD SECTION */
-.banner {
-    padding: 0px 5% 0px 5%;
-}
-
 #banner {
     display: block;
     width: 100%;
@@ -109,7 +112,8 @@ h4 {
 
 /* PRESENTATION SECTION */
 .presentation {
-    padding: 30px 5% 60px 5%;
+    padding-top: 30px;
+    padding-bottom: 60px;
 }
 
 .presentation h2 {
