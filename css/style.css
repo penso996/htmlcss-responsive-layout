@@ -271,7 +271,7 @@ footer {
 
     #logo {
         text-align: center;
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     #title {
@@ -311,6 +311,15 @@ footer {
         float: none;
         padding: 0;
         padding-bottom: 10px;
+        padding-left: 10%;
+        padding-right: 10%;
+        height: auto;
+    }
+
+    .clearfix {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
 }
